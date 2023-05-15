@@ -15,13 +15,17 @@ import Tom2 from './src/components/Tambores/Tom2';
 import Tom3 from './src/components/Tambores/Tom3';
 import Tom4 from './src/components/Tambores/Tom4';
 import Caixa from './src/components/Tambores/Caixa';
+//import AudioSample from './src/components/AudioSample/AudioSample';
+
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Background />
       <View style={styles.tambores}>
-        <KickEsquerdo />
+        <View>
+          <KickEsquerdo />
+        </View>
         <KickDireito />
         <Caixa />
         <Tom1 />
