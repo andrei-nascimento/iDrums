@@ -11,11 +11,11 @@ export default function ChimbalAberto() {
 
 const styles = StyleSheet.create({
     img: {
-        width: 190,
-        height: 190,
+        width: 180,
+        height: 180,
         position: 'absolute',
         zIndex: 1,
         bottom: 80,
-        right: 155
+        right: 165
     }
 });

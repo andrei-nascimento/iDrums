@@ -11,11 +11,11 @@ export default function ChimbalFechado() {
 
 const styles = StyleSheet.create({
     img: {
-        width: 160,
-        height: 160,
+        width: 150,
+        height: 150,
         position: 'absolute',
         zIndex: 1,
         bottom: 4,
-        right: 195
+        right: 210
     }
 });

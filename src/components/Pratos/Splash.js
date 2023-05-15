@@ -11,11 +11,11 @@ export default function Splah() {
 
 const styles = StyleSheet.create({
     img: {
-        width: 150,
-        height: 150,
+        width: 155,
+        height: 155,
         position: 'absolute',
         zIndex: 1,
-        bottom: 270,
+        bottom: 260,
         right: 0
     }
 });
